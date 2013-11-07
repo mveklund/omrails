@@ -1,0 +1,23 @@
+
+$navbarLinkColor: white;
+$navbarBackgroundHighlight: #6600CC;
+$navbarBackground: #6600CC;
+$heroUnitBackground: #e0c2ff;
+$btnPrimaryBackground: #6600CC;
+$btnPrimaryBackgroundHighlight: #6600CC;
+
+@import 'bootstrap';
+
+body {
+	padding-top: 60px;
+}
+
+@import 'bootstrap-responsive';
+
+.footer {
+	margin-top: 50px;
+	color: $grayLight;
+	a {
+		color: $gray;
+	}
+}
